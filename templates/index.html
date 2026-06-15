@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Customer Segmentation</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            margin-top: 80px;
+        }
+
+        .box {
+            background: #1e293b;
+            padding: 40px;
+            width: 400px;
+            margin: auto;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        input, button {
+            padding: 10px;
+            margin-top: 15px;
+            width: 80%;
+        }
+
+        button {
+            background: #38bdf8;
+            border: none;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+
+        button:hover {
+            background: #0ea5e9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🚀 AI Customer Segmentation System</h1>
+
+    <div class="box">
+
+        <h3>Upload CSV File</h3>
+
+        <form action="/upload" method="post" enctype="multipart/form-data">
+
+            <input type="file" name="file" required>
+
+            <br>
+
+            <button type="submit">
+                Run Segmentation
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

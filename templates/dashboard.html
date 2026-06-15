@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Segmentation Dashboard</title>
+</head>
+<body style="font-family:Arial; margin:30px;">
+
+    <h1>📊 AI Customer Segmentation Dashboard</h1>
+
+    <h2>Cluster Visualization</h2>
+    {{ graph|safe }}
+
+    <h2>Sample Data</h2>
+    {{ tables[0]|safe }}
+
+    <br><br>
+
+    <a href="/download">
+        <button style="padding:10px;background:green;color:white;">
+            Download Segmented CSV
+        </button>
+    </a>
+
+</body>
+</html>
